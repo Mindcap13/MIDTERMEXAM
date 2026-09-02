@@ -192,17 +192,7 @@ section:not(#home) {
 
 .hero-section h1 {
     margin-top: 15px;
-    background: linear-gradient(
-        90deg,
-        #ffffff,
-        #82b5ff,
-        #c6a6ff,
-        #ffffff
-    );
-    background-size: 250%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textGradient 5s linear infinite;
+    color: #ffffff;
 }
 
 .hero-section .lead {
@@ -318,21 +308,6 @@ section .text-center > p {
     overflow: hidden;
     animation: progressLoad 1.8s ease forwards;
 }
-
-.progress-bar::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.45),
-        transparent
-    );
-    transform: translateX(-100%);
-    animation: progressShine 2.5s infinite;
-}
-
 
 #gallery {
     background:
